@@ -1,0 +1,114 @@
+.selection-overlay {
+    width: 773px;
+    height: 638px;
+    flex-shrink: 0;
+
+
+    border-radius: 23px;
+    opacity: 0.5;
+    background: rgba(156, 147, 147, 0.35);
+
+    box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.47 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 14px );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 22px 22px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#welcome-txt{
+    color: #FFF;
+    font-family: Jaldi, serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+
+}
+
+#txt-slogan{
+    color: #FFF;
+    font-family: Jaldi, serif;
+    flex-shrink: 0;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+
+}
+.selection-overlay{
+
+}
+
+#body{
+    background-color: black;
+}
+
+#bg-img{
+    width: 100%;
+}
+#txt-selector{
+    font-weight: 1000;
+    font-family: Jaldi, serif;
+    font-size: 30px;
+}
+
+#btn-customer {
+    margin-top: 80px;
+    margin-left: 186px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 224px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+#btn-customer :hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+#btn-customer :active{
+    transform: scale(0.95);
+}
+
+#btn-employee{
+    margin-left: 449px;
+    margin-top: -45px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: orange;
+    border-radius: 224px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #fff;
+    background-image: linear-gradient(45deg, #fff 0%, #fff  51%, #fff  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
