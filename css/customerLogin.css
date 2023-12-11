@@ -1,16 +1,10 @@
-body, html {
-    height: 100%;
-    margin: 0;
-
-
-}
-
-.img-container{
-   background-image: url("../resources/pexels-valeria-boltneva-1199957 1.png");
+body,html{
+    background-image: url("../resources/pexels-valeria-boltneva-1199957 1.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
 }
 
 .nav-bar-txt{
@@ -46,7 +40,6 @@ body, html {
     right: 101px;
     position: absolute;
 }
-
 .log-in-sign-up-selection{
     position: absolute;
     top: 160px;
@@ -161,11 +154,12 @@ body, html {
 }
 
 
+
 .login-container{
-    margin-top: 99px;
+    margin-top: 61px;
     margin-left: 7px;
-    width: 615px;
-    height: 497px;
+    width: 467px;
+    height: 375px;
     flex-shrink: 0;
 
 
@@ -185,9 +179,10 @@ body, html {
     outline: 0;
 }
 
-
-#fld-full-name{
+#fld-contact-no{
     background: rgba(255, 255, 255, 0.2 );
+    color: #FFFFFF;
+    font-weight: bold;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
@@ -195,97 +190,30 @@ body, html {
     height: 34px;
     border-radius: 8px;
     margin-left: -9px;
-    margin-top: 33px;
+    margin-top: 65px;
     text-overline-color: white;
     outline: 0;
-    font-weight: bold;
-    color: white;
-}
-
-
-
-::placeholder {
-    color: #ffffff;
-    opacity: 1;
-    font-weight: 1000;
-}
-
-
-
-#fld-country-code{
-    background: rgba( 255, 255, 255, 0.2 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135,0.1 );
-    backdrop-filter: blur( 10px );
-    -webkit-backdrop-filter: blur( 10px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    width: 40px;
-    height: 34px;
-    border-radius: 8px;
-    margin-top: 26px;
-    outline: 0;
-    margin-left: -12px;
-    font-weight: bold;
-    color: white;
-}
-
-
-
-#fld-contact-no{
-    border-radius: 8px;
-    height: 34px;
-    margin-top: 45px;
-    width: 319px;
-    background: rgba( 255, 255, 255, 0.2 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135,0.1 );
-    backdrop-filter: blur( 10px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    outline: 0;
-    font-weight: bold;
-    color: white;
-
-}
-
-
-#fld-email{
-    background: rgba(254, 255, 255, 0.2 );
-    backdrop-filter: blur( 4px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    width: 369px;
-    height: 34px;
-    border-radius: 8px;
-    margin-left: -9px;
-    margin-top: 45px;
-    text-overline-color: white;
-    outline: 0;
-    font-weight: bold;
-    color: white;
 }
 
 
 #fld-password{
     background: rgba(254, 255, 255, 0.2 );
+    color: #FFFFFF;
     backdrop-filter: blur( 4px );
+    font-weight: bold;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     width: 369px;
     height: 34px;
     border-radius: 8px;
-    margin-top: 45px;
+    margin-top: 55px;
     text-overline-color: white;
     outline: 0;
     margin-left: -9px;
-    font-weight: bold;
-    color: white;
 }
 
-.btn-registration{
-    margin-top: 112px;
-
-}
-
-
-#btn-lets-go{
-    margin-left:152px;
-    margin-top: -68px;
+#btn-lets-go {
+    margin-left: 152px;
+    margin-top: 68px;
     padding: 15px 30px;
     text-align: center;
     text-transform: uppercase;
@@ -297,39 +225,10 @@ body, html {
     border: 0px;
     font-weight: 700;
     box-shadow: 0px 0px 14px -7px #f09819;
-    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819 51%, #FF512F 100%);
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
     font-size: large;
 }
-
-
-#btn-clear{
-    margin-left: 327px;
-    margin-top: -51px;
-    padding: 15px 30px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: black;
-    border-radius: 224px;
-    display: block;
-    border: 0px;
-    font-weight: 700;
-    box-shadow: 0px 0px 14px -7px #fff;
-    background-image: linear-gradient(45deg, #fff 0%, #fff  51%, #fff  100%);
-    cursor: pointer;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    font-size: large;
-}
-
-
-
-
-
-
