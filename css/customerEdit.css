@@ -1,0 +1,225 @@
+html{
+    background-image: url("../resources/pexels-valeria-boltneva-1199957 1.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.nav-bar-txt{
+    position: absolute;
+    top: -20px;
+    left: 27px;
+}
+#txt-icon{
+    color: white;
+
+}
+
+#txt-icon:after{
+    content: " BURGER";
+    color: #F09819;
+    overflow: visible;
+
+}
+
+#txt-icon {
+    color: #FFF;
+
+    font-family: Jockey One;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+#icon-home{
+    top: 71px;
+    right: 101px;
+    position: absolute;
+}
+
+
+.information-container{
+    margin-top: 77px;
+    width: 868px;
+    height: 630px;
+    flex-shrink: 0;
+
+
+    border-radius: 23px;
+    opacity: 0.5;
+
+    background: rgba(146, 137, 137, 0.50);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 22px 22px;
+    font-size: 20px;
+    text-align: center;
+    text-overline-color: white;
+    outline: 0;
+}
+
+#fld-full-name{
+    background: rgba(255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 369px;
+    height: 34px;
+    border-radius: 8px;
+    margin-left: -369px;
+    margin-top: 45px;
+    text-overline-color: white;
+    outline: 0;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+::placeholder {
+    color: #ffffff;
+    opacity: 1;
+    font-weight: 1000;
+}
+
+
+
+#fld-country-code{
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135,0.1 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 40px;
+    height: 34px;
+    border-radius: 8px;
+    margin-top: 26px;
+    outline: 0;
+    margin-left: -369px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+#fld-contact-no{
+    border-radius: 8px;
+    height: 34px;
+    margin-top: 45px;
+    width: 319px;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135,0.1 );
+    backdrop-filter: blur( 10px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    outline: 0;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+#fld-email{
+    background: rgba(254, 255, 255, 0.2 );
+    backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 369px;
+    height: 34px;
+    border-radius: 8px;
+    margin-top: 45px;
+    text-overline-color: white;
+    outline: 0;
+    font-weight: bold;
+    color: white;
+    margin-left: -369px;
+}
+
+
+#fld-password{
+    background: rgba(254, 255, 255, 0.2 );
+    backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 369px;
+    height: 34px;
+    border-radius: 8px;
+    margin-top: 45px;
+    text-overline-color: white;
+    outline: 0;
+    margin-left: -369px;
+    font-weight: bold;
+    color: white;
+}
+
+
+#btn-lets-go{
+    margin-left:84px;
+    margin-top: 123px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 224px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-size: large;
+}
+
+
+#btn-clear{
+    margin-left: 263px;
+    margin-top: -51px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;
+    border-radius: 224px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #fff;
+    background-image: linear-gradient(45deg, #fff 0%, #fff  51%, #fff  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-size: large;
+}
+
+#btn-delete-acc{
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 224px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #fff;
+    background-image: linear-gradient(45deg, red 100%, red  100%, red 100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-size: large;
+    margin-left: 505px;
+    margin-top: -341px;
+}
