@@ -1,0 +1,73 @@
+html{
+    background-image: url("../resources/pexels-valeria-boltneva-1199957 1.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.nav-bar-txt{
+    position: absolute;
+    top: -20px;
+    left: 27px;
+
+}
+#txt-icon{
+    color: white;
+
+}
+
+#txt-icon:after{
+    content: " BURGER";
+    color: #F09819;
+    overflow: visible;
+
+}
+
+#txt-icon {
+    color: #FFF;
+
+    font-family: Jockey One;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+#icon-search{
+    top: 71px;
+    right: 190px;
+    position: absolute;
+}
+
+#icon-person{
+    top: 71px;
+    right: 101px;
+    position: absolute;
+}
+
+.side-menu {
+    margin-top: 33px;
+    margin-left: -632px;
+    width: 119px;
+    height: 539px;
+    flex-shrink: 0;
+
+
+    border-radius: 23px;
+    opacity: 0.5;
+
+    background: rgba(146, 137, 137, 0.50);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 22px 22px;
+    font-size: 20px;
+    text-align: center;
+    text-overline-color: white;
+    outline: 0;
+}
