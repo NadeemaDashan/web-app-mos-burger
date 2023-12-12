@@ -34,9 +34,9 @@ html{
 
 }
 
-.selection-overlay {
-    width: 773px;
-    height: 638px;
+.container-md {
+    width: 803px !important;
+    height: 638px !important;
     flex-shrink: 0;
 
 
@@ -61,7 +61,7 @@ html{
 .txt-container{
     color: black;
     font-family: Jaldi, serif;
-    font-size: 45px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 1000;
     line-height: normal;
@@ -70,7 +70,7 @@ html{
 #welcome-txt{
     color: black;
     font-family: Jaldi, serif;
-    font-size: 45px;
+    font-size: 39px;
     font-style: normal;
     font-weight: 1000;
     line-height: normal;
@@ -142,8 +142,9 @@ html{
 }
 
 #btn-employee{
+
     margin-left: 424px;
-    margin-top: -51px;
+    margin-top: -66px;
     padding: 15px 30px;
     text-align: center;
     text-transform: uppercase;
