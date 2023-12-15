@@ -8,12 +8,27 @@ function customerClick(){
 function employeeClick(){
     window.location = "../html/employeeLogin.html";
 }
-
-//to check login credentials of the employees
-const admin = {username:"Nimal",password:"992412"}
 let employeeArray=[]
+let employeeOb=undefined;
+function signupEmployees(){
+    let employeeName=document.getElementById("fld-full-name").value
+    let employeeContactNo=document.getElementById("fld-contact-no").value
+    let employmentId=document.getElementById("fld-employee-id").value
+    let employeePassword=document.getElementById("fld-password").value
+
+    employeeOb= {username: employmentId, password: employeePassword}
+    employeeArray.push(employeeOb);
+    window.location = "../html/employeeLogin.html"
+    //localStorage.myArrData=JSON.stringify(arrData);
+    localStorage.myArrData=JSON.stringify(employeeArray)
+}
+const admin = {username:"Nimal",password:"992412"}
+employeeArray.push(admin)
+
+
 
 function loginEmployeeClick() {
+    let employeeArray = JSON.parse(localStorage.myArrData);
     let employeeId = document.getElementById("fld-employee-id").value
     let employeePassword = document.getElementById("fld-password").value
     let success = false;
@@ -32,18 +47,3 @@ function loginEmployeeClick() {
     }
 }
 
-function signupEmployees(){
-
-    let employeeName=document.getElementById("fld-full-name").value
-    let employeeContactNo=document.getElementById("fld-contact-no").value
-    let employmentId=document.getElementById("fld-employee-id").value
-    let employeePassword=document.getElementById("fld-password").value
-
-    let employeeOb= {username: employmentId, password: employeePassword}
-    employeeArray.push(employeeOb);
-    for (let i = 0; i < employeeArray.length; i++) {
-        console.log(employeeArray[i].username);
-    }
-
-    window.location = "../html/employeeLogin.html"
-}
