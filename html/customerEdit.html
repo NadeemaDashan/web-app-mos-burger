@@ -24,6 +24,9 @@
     </div>
     <!-- mos burger logo and home icon end-->
 <!--    editable information container start-->
+    <div class="search-container">
+        <label for="fld-search-customer"></label><input id="fld-search-customer" type="text" placeholder="  Enter Customer ID">
+    </div>
     <div class="information-container">
         <label for="fld-full-name"></label><input id="fld-full-name" type="text" placeholder="  Full Name"><br>
         <label for="fld-country-code"></label><input id="fld-country-code" type="text" placeholder="  +94">
@@ -33,9 +36,9 @@
 
         <div class="btn-registration">
             <button id="btn-lets-go" onclick="customerEdit()">SUBMIT</button>
-            <button id="btn-clear">CANCEL</button>
+            <button id="btn-clear" onclick="customerLoad()">SEARCH</button>
         </div>
-        <button id="btn-delete-acc">Delete This Account</button>
+        <button id="btn-delete-acc" onclick="customerDelete()">Delete This Account</button>
     </div>
 </div>
 <script src="../js/app.js"></script>
