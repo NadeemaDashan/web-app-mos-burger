@@ -52,7 +52,7 @@ html{
     margin-top: 33px;
     margin-left: -632px;
     width: 119px;
-    height: 539px;
+    height: 450px;
     flex-shrink: 0;
 
 
@@ -70,4 +70,22 @@ html{
     text-align: center;
     text-overline-color: white;
     outline: 0;
+}
+
+#icon-home-dashboard{
+    margin-top: 63px;
+}
+
+#icon-order{
+    margin-top: 63px;
+}
+
+
+#icon-add-product{
+    margin-top: 63px;
+
+}
+
+#icon-stat{
+    margin-top: 63px;
 }

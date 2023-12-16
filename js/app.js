@@ -147,3 +147,8 @@ function customerDelete(){
     localStorage.array=JSON.stringify(customerArray);
 
 }
+
+let orderCustomerArray=[]
+function orderCusDetails(){
+
+}
