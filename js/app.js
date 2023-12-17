@@ -148,7 +148,9 @@ function customerDelete(){
 
 }
 
-let orderCustomerArray=[]
-function orderCusDetails(){
-
+//TODO PRODUCT SELECT
+function productSelect(){
+    console.log("Hello!")
 }
+
+//TODO PRODUCT SELECT
