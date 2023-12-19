@@ -154,3 +154,19 @@ function productSelect(){
 }
 
 //TODO PRODUCT SELECT
+
+
+//Generate ID and dynamically push to html start
+function generateIncrementalId() {
+    let lastId = localStorage.getItem("lastId");
+    let newId = (lastId === null) ? 1 : parseInt(lastId) + 1;
+    localStorage.setItem("lastId", newId);
+    return newId;
+}
+
+
+let generatedId = generateIncrementalId();
+document.getElementById("txt-order-no").innerHTML="Order No. "+generatedId;
+
+//Generate ID and dynamically push to html end
+

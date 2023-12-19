@@ -290,3 +290,25 @@ html{
     text-overline-color: white;
     outline: 0;
 }
+
+
+#tbl-row-description{
+    horiz-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+#txt-order-no{
+    text-align: left;
+}
+
+#txt-order-no :after{
+    color: #F09819;
+}
