@@ -148,14 +148,6 @@ function customerDelete(){
 
 }
 
-//TODO PRODUCT SELECT
-function productSelect(){
-    console.log("Hello!")
-}
-
-//TODO PRODUCT SELECT
-
-
 //Generate ID and dynamically push to html start
 function generateIncrementalId() {
     let lastId = localStorage.getItem("lastId");
@@ -169,4 +161,44 @@ let generatedId = generateIncrementalId();
 document.getElementById("txt-order-no").innerHTML="Order No. "+generatedId;
 
 //Generate ID and dynamically push to html end
+
+//product select start
+let productArray=
+    [{id:"B1001",description:"classical Burger (L)",price:750,discount:15},
+    {id:"B1002",description:"Turkey Burger",price:1600,discount:0},
+    {id:"B1008",description:"Bacon Burger",price:650,discount:15},
+    {id:"B1034",description:"Creamy shrimp pasta",price:2000,discount:0},
+    {id:"B1032",description:"Chicken penne pasta",price:1700,discount:0},
+    {id:"B1031",description:"Chicken n cheese pasta",price:1600,discount:15},]
+
+let orderArray=[];
+
+
+function loadTable() {
+    let tbl = document.getElementById("tbl-cart");
+
+
+    for (let i = 0; i < 6; i++) {
+        const tblRow = tbl.insertRow();
+        let tdDescription = tblRow.insertCell(0);
+        let tdQty = tblRow.insertCell(1);
+        let tdAmount = tblRow.insertCell(2);
+
+        tdDescription.textContent = productArray[i].description;
+
+        // Using input type 'number' for quantity input
+        let inputQty = document.createElement("input");
+        inputQty.type = "number";
+        inputQty.value = 0;
+        inputQty.min = 0;
+        inputQty.addEventListener("input", updateTotal);
+        tdQty.appendChild(inputQty);
+
+        function updateTotal() {
+            tdAmount.textContent = productArray[i].price * parseInt(inputQty.value);
+        }
+
+    }
+}
+loadTable();
 
